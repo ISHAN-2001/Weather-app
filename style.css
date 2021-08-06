@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    background-color: #f1f5f8;
+}
+
+main{
+    /* background: rebeccapurple; */
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    background: url('./img/sun.jpg') no-repeat center center/cover;
+}
+.container{
+    background: #fff;
+    width:400px;
+    height: auto;
+    text-align: center;
+    border: 1px solid #2385cc;
+    border-radius: 5px;
+    padding: 10px;
+    opacity: 0.75;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+}
+
+.container *{
+    margin-bottom: 10px;
+}
+
+.container div{
+    margin: 30px;
+}
+.inputs{
+    margin-bottom: 20px;
+    width: 400px;
+}
+
+input[type]{
+    padding: 10px;
+    outline: none;
+    border: 2px solid grey;
+    border-radius: 5px;
+    margin-left: 5px; 
+}
+
+input[type = "text"]{
+    width: 75%;
+}
+
+input[type]:focus{
+    border: 2px solid #2385cc;
+}
+
+.inputs .btn{
+    padding: 10px 10px;
+    background: #2385cc;
+    color: #fff;
+    border-radius: 3px;
+    outline: none;
+    border: 2px solid #2385cc !important;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.5s;
+    letter-spacing: 1px;
+}
+
+.inputs .btn:hover{
+    background: #fff;
+    color: #2385cc;
+    opacity: 0.7;
+}
+
+.max-min{
+    display: flex;
+    justify-content: space-around;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.city p{
+    font-weight: 600;
+    font-size: x-large;
+}
+.temp h1{
+    font-size: xxx-large;
+}
+.weather p{
+    letter-spacing: 1px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.logo i{
+    color: #2385cc;
+}
